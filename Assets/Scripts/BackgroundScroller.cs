@@ -26,9 +26,9 @@ public class BackgroundScroller : MonoBehaviour
     void MoveBackground()
     {
         rb.velocity = new Vector2(-scrollSpeed,rb.velocity.y);
-        if (transform.position.x <= -153.7f)
+        if (transform.position.x <= -154.98f)
         {
-            transform.position = new Vector3(-36f, transform.position.y, 0);
+            transform.position = new Vector3(-37.2f, transform.position.y, 0);
         }
     }
 }
