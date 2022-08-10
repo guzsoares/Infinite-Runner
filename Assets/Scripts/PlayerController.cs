@@ -43,6 +43,10 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.up * jumpForce;
             }
         }
+        else
+        {
+            anim.Play("fox_dead");
+        }
 
         if (Input.GetKey(KeyCode.Space) && isJumping == true)
         {
